@@ -76,3 +76,31 @@ nav {
   font-size: 1.1rem;
   color: #cbd5f5;
 }
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3%;
+}
+
+.logo {
+  font-size: 1.2rem;
+  letter-spacing: 6px;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+/* Navbar links */
+.nav-links a {
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #cbd5f5;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
